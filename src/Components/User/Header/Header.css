@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.navbar-brand {
+  flex-shrink: 0;
+  color: #000000;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Resphekt";
+  margin-bottom: 20px;
+}
+.nav-link {
+  margin-top: 6px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  font-family: "inter";
+}
+.nav-item{
+  padding: 30px;
+}
+nav{
+  height: 69px;
+}
+
+#home {
+  color: red;
+}
+.button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #000;
+}
+.nave-button {
+  color: aliceblue;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Resphekt";
+  src: url(../../Fonts/Resphekt-Regular.otf);
+}
+h1 {
+  font-size: 70px;
+  font-weight: 400;
+  
+}
