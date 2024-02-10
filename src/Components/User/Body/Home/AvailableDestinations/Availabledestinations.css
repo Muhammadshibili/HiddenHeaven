@@ -1,0 +1,57 @@
+#shimla-all {
+    padding-left: 240px;
+    padding-top: 30px;
+  }
+
+  
+  .shimla-img-destination{
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 1050px;
+    height: 483px;
+    margin: 10px;
+  }
+  .shimla-img-title {
+    font-family: "inter";
+    position: absolute;
+    margin-top: -313px;
+    margin-left: 364px;
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+#shimla-p{
+    padding:40px;
+    margin: 5px;
+    margin-left:15px ;
+    font-family: "inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 140%;
+    
+}
+.button-getmap{
+  width: 465px;
+  height: 58px;
+  border-radius: 20px;
+    padding: 12px 24px;
+    background-image: url();
+    margin-left: 510px;
+    margin-bottom: 7px;
+    font-family: "baloo";
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.button-home{
+  width: 465px;
+  height: 58px;
+  border-radius: 20px;
+    padding: 12px 24px;
+    background-color: #46686B;
+    margin-left: 510px;
+    margin-bottom: 25px;
+    font-family: "baloo";
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}

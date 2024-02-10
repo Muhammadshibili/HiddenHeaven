@@ -1,0 +1,35 @@
+#services-all2 {
+  padding-left: 180px;
+  padding-top: 50px;
+}
+.Services-img {
+  border-radius: 45px;
+  width: 1075px;
+  height: 440px;
+  margin: 10px;
+  font-family: "baloo";
+  font-size: 70px;
+  color: #ffffff;
+  background-image: url(../../../Images/smartphone-contribute.jpg);
+  background-size: 100% 100%;
+}
+.Services-img2 {
+  border-radius: 45px;
+  width: 1075px;
+  height: 440px;
+  margin: 10px;
+  font-family: "baloo";
+  font-size: 70px;
+  color: #ffffff;
+  background-image: url(../../../Images/homepic-inhand-contribute.jpg);
+  background-size: 100% 100%;
+}
+
+.Title {
+  font-family: "baloo";
+  position: absolute;
+  margin-top: -291px;
+  margin-left: 335px;
+  font-size: 70px;
+  color: #ffffff;
+}

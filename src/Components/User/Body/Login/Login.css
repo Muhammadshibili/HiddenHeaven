@@ -1,0 +1,90 @@
+.main-card {
+  border-radius: 0rem 3rem 3rem 0rem;
+  background-color: #46686b;
+  height: 500px;
+  width: 760px;
+}
+.img-astronaut {
+  border-radius: 0rem 3rem 3rem 0rem;
+  width: 240px;
+  height: 500px;
+}
+.sign {
+  letter-spacing: 1px;
+}
+.signup {
+  color: #393f81;
+}
+.login-your-account {
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+.Email {
+  color: #ffffff;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.Password {
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.input {
+  border-color: #ffffff;
+  background: transparent;
+  width: 85%;
+  height: 30px;
+  margin-left: 20px;
+}
+.forgot {
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.Signup {
+  color: #ffffff;
+  margin-left: 70px;
+  font-size: 10px;
+}
+.Login-button {
+  background-color: #ffffff;
+  color: black;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card-inside-field {
+  border-color: #ffffff;
+  background-color: transparent;
+  width: 280px;
+  height: 420px;
+  margin-top: -520px;
+  margin-left: 250px;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+.close-icon {
+  position: absolute;
+  bottom: 450px;
+  margin-left: 650px;
+}
+.welcome-to-hidden-heaven {
+  bottom: 300px;
+  left: 20px;
+  width: 160px;
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+}
+.line-1 {
+  width: 170px;
+  bottom: 280px;
+  color: #ffffff;
+  position: absolute;
+}

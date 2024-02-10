@@ -1,16 +1,17 @@
 import React from "react";
 import "./Header.css";
+import {Link} from "react-router-dom"
 
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="#">
             <h1>HiddenHeaven</h1>
-          </a>
+          </Link>
           <button
-            class="navbar-toggler "
+            className="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -18,35 +19,35 @@ export const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNav ">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#" id="home">
+          <div className="collapse navbar-collapse " id="navbarNav ">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/" id="home">
                   Home
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <Link className="nav-link" to="/Services">
                   Service's
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <Link className="nav-link" to="/Contribute">
                   Contribute
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <Link className="nav-link" to="/aboutus">
                   Aboute Us
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <span class="button">
-                  <a class="nave-button" href="">
+              <li className="nav-item">
+                <span className="button">
+                  <Link className="nave-button" to="/Login">
                     GET STARTED
-                  </a>
+                  </Link>
                 </span>
               </li>
             </ul>
@@ -56,11 +57,3 @@ export const Header = () => {
     </div>
   );
 };
-
-/*color: #FFF;
-
-font-family: Resphekt;
-font-size: 70px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;*/
