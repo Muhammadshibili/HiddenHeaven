@@ -103,25 +103,25 @@ export const Homebody = () => {
       </div>
      
  {/* black 3 icons */}
-      <div className="container">
-      <div className="row11  IconAlign ">
+ <div className="container">
+      <div className="row  IconAlign ">
         <div className="col-lg-4 ">
-          < i className="bi bi-patch-check-fill iconsize iconAlignment"></i>
-          <h5>Best Price Guarantee</h5>
-          <p>
+          <i className="bi bi-patch-check-fill iconsize iconAlignment"></i>
+          <h5 className="icon-text-99">Best Price Guarantee</h5>
+          <p className="icon-text-99">
             We offer the best deals. If you find a cheaper <br />
             flight elsewhere, contact us!
           </p>
         </div>
         <div className="col-lg-4  ">
           <i className="bi bi-currency-exchange iconsize iconAlignment"></i>
-          <h5>Refunds & Cancellations</h5>
-          <p>Flight Cancellation Coverage</p>
+          <h5 className="icon-text-99">Refunds & Cancellations</h5>
+          <p className="icon-text-99">Flight Cancellation Coverage</p>
         </div>
         <div className="col-lg-4 ">
           <i className="bi bi-emoji-heart-eyes-fill iconsize iconAlignment"></i>
-          <h5>Imperdiet a, vitae b</h5>
-          <p>Stay Informed: COVID-19 Travel Restrictions</p>
+          <h5 className="icon-text-99">Imperdiet a, vitae b</h5>
+          <p className="icon-text-99">Stay Informed: COVID-19 Travel Restrictions</p>
         </div>
       </div>
     </div>
